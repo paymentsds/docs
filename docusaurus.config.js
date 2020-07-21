@@ -1,27 +1,30 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
+  title: "PaymentsDS",
+  tagline: "Integrate with PaymentsDS and ",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
-  favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  favicon: "img/payments.png",
+  organizationName: "PaymentsDS", // Usually your GitHub org/user name.
+  projectName: "PaymentsDsDocs", // Usually your repo name.
+  customFields: {
+    span: "#GetPaid",
+  },
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "PaymentsDS",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "PaymentsDS Logo",
+        src: "img/payments.png",
       },
       links: [
         {
           to: "docs/",
           activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
+          label: "Documentation",
+          position: "right",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/PaymentsDS/",
           label: "GitHub",
           position: "right",
         },
@@ -31,7 +34,7 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Documentation",
           items: [
             {
               label: "Style Guide",
@@ -44,11 +47,11 @@ module.exports = {
           ],
         },
         {
-          title: "More",
+          title: "Community",
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/PaymentsDS/",
             },
           ],
         },

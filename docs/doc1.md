@@ -1,7 +1,7 @@
 ---
 id: doc1
 title: Getting Started
-sidebar_label: Style Guide
+sidebar_label: Getting Started
 ---
 
 ## Quickstart
@@ -10,7 +10,7 @@ These quickstart guides will teach you how to integrate your [M-Pesa](https://de
 
 Choose your programming language below:
 
-- [JavaScript](https://localhost:3000/docs/doc2)
-- [PHP](https://localhost:3000/docs/doc2)
-- [Python](https://localhost:3000/docs/doc2)
-- [Ruby](https://localhost:3000/docs/doc2)
+- [JavaScript](doc2)
+- [PHP](doc3)
+- [Python](doc4)
+- [Ruby](doc5)

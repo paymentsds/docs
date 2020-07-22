@@ -30,11 +30,15 @@
 }
 
 .hero__title,
-.hero__subtitle {
+.hero__subtitle,
+.menu__link {
   color: #000;
+  transition: all ease 0.3s;
 }
 
-.hero__subtitle span {
+.hero__subtitle span,
+.table-of-contents__link--active,
+.menu__link:hover {
   color: #ff6619;
 }
 

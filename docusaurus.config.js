@@ -7,7 +7,7 @@ module.exports = {
   organizationName: "PaymentsDS", // Usually your GitHub org/user name.
   projectName: "PaymentsDsDocs", // Usually your repo name.
   customFields: {
-    span: "#GetPaid",
+    span: "#MakeYourTransactionsEasy",
   },
   themeConfig: {
     navbar: {
@@ -58,6 +58,7 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} PaymentsDS. Built with Docusaurus.`,
     },
+    defaultDarkMode: true,
   },
   presets: [
     [

@@ -11,7 +11,7 @@ const features = [
     title: <>Documentation</>,
     imageUrl: "img/undraw_documentation.svg",
     description: (
-      <>Access Developer Documentation and start transacting online.</>
+      <>Access Developer Documentation and start transacting online. </>
     ),
     link: <> View Documentation </>,
   },
@@ -30,7 +30,10 @@ const features = [
     title: <>Forum</>,
     imageUrl: "img/undraw_community.svg",
     description: (
-      <>Join our community and help each other integrate and #GetPaid.</>
+      <>
+        Join our community and help each other integrate and
+        #MakeYourTransactionsEasy.
+      </>
     ),
     link: <> Browse Forums </>,
   },
@@ -59,7 +62,7 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={siteConfig.title}
       description="Description will go into a meta tag in <head />"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
@@ -81,7 +84,7 @@ function Home() {
           </div>
         </div>
       </header>
-      <main>
+      <main className={styles.main}>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">

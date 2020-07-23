@@ -1,7 +1,7 @@
 module.exports = {
   title: "PaymentsDS",
   tagline: "Integrate with PaymentsDS and ",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://paymentsds.netlify.app",
   baseUrl: "/",
   favicon: "img/payments.png",
   organizationName: "PaymentsDS", // Usually your GitHub org/user name.

@@ -38,12 +38,24 @@ module.exports = {
           title: "Documentation",
           items: [
             {
-              label: "Style Guide",
+              label: "Getting Started",
               to: "docs/",
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2/",
+              label: "JavaScript SDK",
+              to: "docs/javascript/usage",
+            },
+            {
+              label: "PHP SDK",
+              to: "docs/php/usage",
+            },
+            {
+              label: "Python SDK",
+              to: "docs/python/usage",
+            },
+            {
+              label: "Ruby SDK",
+              to: "docs/ruby/usage",
             },
           ],
         },

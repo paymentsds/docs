@@ -2,7 +2,7 @@ module.exports = {
   title: "PaymentsDS",
   tagline: "Integrate with PaymentsDS and ",
   url: "https://paymentsds.github.io",
-  baseUrl: "/docs/",
+  baseUrl: "/",
   favicon: "img/payments.png",
   organizationName: "PaymentsDS", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.

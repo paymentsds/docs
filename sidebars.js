@@ -1,5 +1,9 @@
 module.exports = {
   someSidebar: {
-    Docs: ["doc1", "doc2", "doc3", "doc4", "doc5"],
+    Docs: ["doc1"],
+    JavaScript: ["javascript/usage", "javascript/installation"],
+    PHP: ["php/usage"],
+    Python: ["python/usage"],
+    Ruby: ["ruby/usage"],
   },
 };

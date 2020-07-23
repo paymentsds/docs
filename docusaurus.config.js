@@ -5,13 +5,14 @@ module.exports = {
   baseUrl: "/",
   favicon: "img/payments.png",
   organizationName: "PaymentsDS", // Usually your GitHub org/user name.
-  projectName: "PaymentsDsDocs", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
   customFields: {
     span: "#MakeYourTransactionsEasy",
   },
   themeConfig: {
+    disableDarkMode: false,
     navbar: {
-      title: "PaymentsDS",
+      // title: "PaymentsDS",
       logo: {
         alt: "PaymentsDS Logo",
         src: "img/payments.png",
@@ -58,7 +59,6 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} PaymentsDS. Built with Docusaurus.`,
     },
-    defaultDarkMode: true,
   },
   presets: [
     [

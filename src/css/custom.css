@@ -31,7 +31,8 @@
 
 .hero__title,
 .hero__subtitle,
-.menu__link {
+.menu__link,
+.navbar__link {
   color: #000;
   transition: all ease 0.3s;
 }
@@ -42,6 +43,8 @@
 
 .hero__subtitle span,
 .table-of-contents__link--active,
+.navbar__link--active,
+.navbar__link:hover,
 .menu__link:hover,
 .table-of-contents__link:hover {
   color: #ff6619;
@@ -52,8 +55,7 @@ a {
   transition: all ease 0.3s;
 }
 
-a:hover,
-.navbar__link:hover {
+a:hover {
   color: #000;
   text-decoration: none;
 }

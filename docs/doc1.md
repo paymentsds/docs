@@ -21,7 +21,7 @@ Choose your programming language below:
 
 ## Features
 
-This service can be used to:
+PaymentsDS can be used to:
 
 - Receive money from a mobile account to a business account
 - Send money from a business account to a mobile account

@@ -3,7 +3,7 @@ module.exports = {
   tagline: "Integrate with PaymentsDS and ",
   url: "https://paymentsds.netlify.app",
   baseUrl: "/",
-  favicon: "img/payments.png",
+  favicon: "img/payments-logo.png",
   organizationName: "PaymentsDS", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   customFields: {

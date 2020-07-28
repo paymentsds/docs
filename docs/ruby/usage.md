@@ -1,6 +1,6 @@
 ---
 id: usage
-title: Usage
+title: Ruby Usage
 sidebar_label: Usage
 ---
 

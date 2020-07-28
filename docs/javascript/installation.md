@@ -1,11 +1,19 @@
 ---
 id: installation
-title: Installation
+title: JavaScript Installation
 sidebar_label: Installation
 ---
 
-To install the JavaScript SDK you need to run the following commands:
+You can install the JavaScript SDK using NPM or Yarn using the commands listed below:
 
+#### Using NPM
+
+```bash
+npm install --save @paymentsds/mpesa
 ```
 
+#### Using Yarn
+
+```bash
+yarn add @paymentsds/mpesa
 ```

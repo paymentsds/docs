@@ -1,6 +1,6 @@
 ---
 id: installation
-title: Installation
+title: Python Installation
 sidebar_label: Installation
 ---
 

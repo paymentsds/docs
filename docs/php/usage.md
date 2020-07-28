@@ -1,6 +1,6 @@
 ---
 id: usage
-title: Usage
+title: PHP Usage
 sidebar_label: Usage
 ---
 

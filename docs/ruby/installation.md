@@ -1,6 +1,6 @@
 ---
 id: installation
-title: Installation
+title: Ruby Installation
 sidebar_label: Installation
 ---
 

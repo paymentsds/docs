@@ -1,6 +1,6 @@
 ---
 id: configuration
-title: Configuration
+title: PHP Configuration
 sidebar_label: Configuration
 ---
 

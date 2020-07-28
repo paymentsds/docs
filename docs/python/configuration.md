@@ -1,6 +1,6 @@
 ---
 id: configuration
-title: Configuration
+title: Python Configuration
 sidebar_label: Configuration
 ---
 

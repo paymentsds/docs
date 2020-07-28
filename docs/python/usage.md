@@ -1,6 +1,6 @@
 ---
 id: usage
-title: Usage
+title: Python Usage
 sidebar_label: Usage
 ---
 

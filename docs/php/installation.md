@@ -1,6 +1,6 @@
 ---
 id: installation
-title: Installation
+title: PHP Installation
 sidebar_label: Installation
 ---
 

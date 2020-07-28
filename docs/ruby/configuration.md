@@ -1,6 +1,6 @@
 ---
 id: configuration
-title: Configuration
+title: Ruby Configuration
 sidebar_label: Configuration
 ---
 

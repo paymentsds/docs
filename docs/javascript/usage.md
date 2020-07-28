@@ -11,7 +11,6 @@ To use PaymentsDS with the JavaScript SDK you need to have:
 ```
 Node.js 10+
 NPM or Yarn
-
 ```
 
 Below, you will find examples of the PaymentsDS use cases:

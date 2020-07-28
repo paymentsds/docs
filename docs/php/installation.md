@@ -4,8 +4,8 @@ title: PHP Installation
 sidebar_label: Installation
 ---
 
-To install the PHP SDK you need to run the following commands:
+You can install the PHP SDK using composer with the command listed below:
 
-```
-
+```bash
+composer require paymentsds/mpesa
 ```

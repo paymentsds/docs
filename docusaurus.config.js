@@ -18,6 +18,11 @@ module.exports = {
       },
       links: [
         {
+          to: "about",
+          label: "About",
+          position: "right",
+        },
+        {
           to: "docs/",
           activeBasePath: "docs",
           label: "Documentation",

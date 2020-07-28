@@ -6,7 +6,10 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -41,5 +44,8 @@
 }
 
 .main {
+  height: 100vh;
   padding-bottom: 2em;
+  display: flex;
+  align-items: center;
 }

@@ -40,6 +40,10 @@
   transition: all ease 0.3s;
 }
 
+.navbar {
+  padding: 0 70px 0;
+}
+
 .hero__subtitle span,
 .table-of-contents__link--active,
 .navbar__link--active,
@@ -60,5 +64,19 @@ a:hover {
 }
 
 .footer {
-  padding: 50px 150px 15px;
+  padding: 50px 50px 15px;
+}
+
+.footer__logo {
+  max-width: 13em;
+}
+
+.react-toggle {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 2em;
+  }
 }

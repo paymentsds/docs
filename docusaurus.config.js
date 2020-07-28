@@ -10,7 +10,6 @@ module.exports = {
     span: "#MakeYourTransactionsEasy",
   },
   themeConfig: {
-    disableDarkMode: false,
     navbar: {
       // title: "PaymentsDS",
       logo: {
@@ -31,6 +30,7 @@ module.exports = {
         },
       ],
     },
+    disableDarkMode: false,
     footer: {
       style: "dark",
       links: [
@@ -69,7 +69,11 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} PaymentsDS. Built with Docusaurus.`,
+      logo: {
+        alt: "PaymentsDS Logo",
+        src: "img/payments.png",
+      },
+      copyright: `Copyright © ${new Date().getFullYear()} PaymentsDS.`,
     },
   },
   presets: [

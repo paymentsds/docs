@@ -129,3 +129,22 @@ try {
 ```
 
 ### Query the status of a transaction
+
+```php
+use Paymentsds\MPesa\Client;
+$client = new Client([
+   'apiKey' => '<REPLACE>',             // API Key
+   'publicKey' => '<REPLACE>',          // Public Key
+   'serviceProviderCode' => '<REPLACE>', // input_ServiceProviderCode
+]);
+$paymentData = [
+   'subject' => '11114',      // input_QueryReference
+   'reference' => 'T12344CC', // input_ThirdPartyReference
+];
+$result = $client.query($paymentData);
+if ($result->success) {
+   // Handle success scenario
+} else {
+   // Handle failure scenario
+}
+```

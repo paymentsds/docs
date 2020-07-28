@@ -29,6 +29,11 @@ module.exports = {
           position: "right",
         },
         {
+          to: "forum",
+          label: "Forums",
+          position: "right",
+        },
+        {
           href: "https://github.com/PaymentsDS/",
           label: "GitHub",
           position: "right",

@@ -10,7 +10,7 @@
   top: 0;
   position: relative;
   overflow: hidden;
-  background-image: url("/img/get-started.png");
+  background-image: url("/static/img/get-started.png");
   background-attachment: fixed;
   background-position-x: right;
   background-position-y: bottom;

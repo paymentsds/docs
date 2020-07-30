@@ -6,11 +6,15 @@
  */
 
 /* You can override the default Infima variables here. */
+html[data-theme="dark"] {
+  --ifm-font-color-base: var(--ifm-font-color-base-inverse);
+}
+
 :root {
   --ifm-color-primary: #fff;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-dark: rgb(190, 197, 196);
+  --ifm-color-primary-darker: rgb(155, 155, 155);
+  --ifm-color-primary-darkest: rgb(162, 163, 163);
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);

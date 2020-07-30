@@ -6,10 +6,6 @@
  */
 
 /* You can override the default Infima variables here. */
-html[data-theme="dark"] {
-  --ifm-font-color-base: var(--ifm-font-color-base-inverse);
-}
-
 :root {
   --ifm-color-primary: #fff;
   --ifm-color-primary-dark: rgb(190, 197, 196);

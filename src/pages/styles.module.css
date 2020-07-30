@@ -13,14 +13,14 @@
   background-image: url("/img/get-started.png");
   background-attachment: fixed;
   background-position-x: right;
-  background-position-y: bottom;
+  background-position-y: center;
   background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
-    background-position-x: -55px;
+    background-position-x: -03px;
   }
 }
 
@@ -51,4 +51,28 @@
   display: flex;
   align-items: center;
   background-color: #f5f5f5;
+}
+
+@media screen and (min-width: 350px) and (max-width: 996px) {
+  .main {
+    height: 165vh;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 996px) {
+  .main {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main {
+    height: 190vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    height: 200vh;
+  }
 }

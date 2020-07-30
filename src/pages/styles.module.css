@@ -20,6 +20,7 @@
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
+    background-position-x: -55px;
   }
 }
 

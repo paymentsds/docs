@@ -126,3 +126,26 @@ client.revert(reversionData).then(r => {
 ```
 
 ### Query the status of a transaction
+
+```javascript
+import { Client } from '@paymentsds/mpesa'
+
+const client = new Client({
+   apiKey: '<REPLACE>',             // API Key
+   publicKey: '<REPLACE>',          // Public Key
+   serviceProviderCode: '<REPLACE>' // input_ServiceProviderCode,
+   initiatorIdentifier: '<REPLACE>' // input_InitiatorIdentifier,
+   securityIdentifier: '<REPLACE>'  // input_SecurityCredential
+});
+
+const reversionData = {
+   reference: '11114', // input_ThirdPartyReference
+   subject: '5C1400CVRO', // input_QueryReference
+};
+
+client.query(reversionData).then(r => {
+   // Handle success scenario
+}).catch(e => {
+   // Handle failure scenario
+});
+```

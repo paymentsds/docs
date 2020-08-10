@@ -72,10 +72,6 @@ a:hover {
   max-width: 13em;
 }
 
-.react-toggle {
-  display: none !important;
-}
-
 @media screen and (max-width: 768px) {
   .navbar {
     padding: 0 2em;

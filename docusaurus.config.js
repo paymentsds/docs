@@ -40,7 +40,7 @@ module.exports = {
         },
       ],
     },
-    disableDarkMode: false,
+    disableDarkMode: true,
     footer: {
       style: "dark",
       links: [
@@ -95,8 +95,7 @@ module.exports = {
           homePageId: "doc1",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/paymentsds/docs/edit/master/",
+          editUrl: "https://github.com/paymentsds/docs/edit/master/",
         },
         blog: {
           showReadingTime: true,

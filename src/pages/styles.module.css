@@ -53,9 +53,20 @@
   background-color: #f5f5f5;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 350px) and (max-width: 996px) {
   .main {
     height: 165vh;
+  }
+
+  .row {
+    flex-direction: column;
   }
 }
 
@@ -72,7 +83,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .main {
-    height: 200vh;
+  .row {
+    flex-direction: column;
   }
 }

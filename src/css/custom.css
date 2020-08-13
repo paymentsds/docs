@@ -72,6 +72,10 @@ a:hover {
   max-width: 13em;
 }
 
+.col.col--4 + .col.col--4 {
+  margin-left: 90px;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     padding: 0 2em;
@@ -79,5 +83,21 @@ a:hover {
 
   .hero__title {
     font-size: 2.6rem;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 996px) {
+  .col.col--4 + .col.col--4 {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .col.col--4 + .col.col--4 {
+    margin-left: 0px;
+  }
+
+  .hero__title {
+    font-size: 1.9rem;
   }
 }

@@ -26,17 +26,6 @@ const features = [
     ),
     link: <> Get SDKs </>,
   },
-  {
-    title: <>Forum</>,
-    imageUrl: "img/undraw_community.svg",
-    description: (
-      <>
-        Join our community and help each other integrate and
-        #MakeYourTransactionsEasy.
-      </>
-    ),
-    link: <> Browse Forums </>,
-  },
 ];
 
 function Feature({ imageUrl, title, description, link }) {
@@ -88,7 +77,7 @@ function Home() {
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
-              <div className="row">
+              <div className={styles.row}>
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}

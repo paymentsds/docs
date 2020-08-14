@@ -13,17 +13,13 @@ module.exports = {
           ],
         },
         {
-          PHP: ["php/usage", "php/installation", "php/configuration"],
+          PHP: ["php/usage", "php/installation"],
         },
         {
-          Python: [
-            "python/usage",
-            "python/installation",
-            "python/configuration",
-          ],
+          Python: ["python/usage", "python/installation"],
         },
         {
-          Ruby: ["ruby/usage", "ruby/installation", "ruby/configuration"],
+          Ruby: ["ruby/usage", "ruby/installation"],
         },
       ],
     },

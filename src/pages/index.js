@@ -13,7 +13,7 @@ const features = [
     description: (
       <>Access Developer Documentation and start transacting online. </>
     ),
-    link: <> View Documentation </>,
+    link: <Link to="https://developers.paymentsds.org/docs/"> Get SDKs </Link>,
   },
   {
     title: <>SDKs</>,
@@ -24,7 +24,7 @@ const features = [
         more.
       </>
     ),
-    link: <> Get SDKs </>,
+    link: <Link to="https://github.com/paymentsds"> Get SDKs </Link>,
   },
 ];
 
@@ -40,7 +40,7 @@ function Feature({ imageUrl, title, description, link }) {
       <div className="text--center">
         <h3>{title}</h3>
         <p>{description}</p>
-        <Link to={useBaseUrl("docs/")}>{link}</Link>
+        <p>{link}</p>
       </div>
     </div>
   );

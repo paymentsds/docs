@@ -13,7 +13,7 @@ const features = [
     description: (
       <>Access Developer Documentation and start transacting online. </>
     ),
-    link: <Link to="https://developers.paymentsds.org/docs/"> Get SDKs </Link>,
+    link: { text: "Documentation" },
   },
   {
     title: <>SDKs</>,
@@ -24,12 +24,18 @@ const features = [
         more.
       </>
     ),
-    link: <Link to="https://github.com/paymentsds"> Get SDKs </Link>,
+    link: { url: "https://github.com/paymentsds", text: "Get SDKs" },
   },
 ];
 
-function Feature({ imageUrl, title, description, link }) {
+function Feature({
+  imageUrl,
+  title,
+  description,
+  link: { url = null, text = "" },
+}) {
   const imgUrl = useBaseUrl(imageUrl);
+
   return (
     <div className={clsx("col col--4", styles.feature)}>
       {imgUrl && (
@@ -40,7 +46,9 @@ function Feature({ imageUrl, title, description, link }) {
       <div className="text--center">
         <h3>{title}</h3>
         <p>{description}</p>
-        <p>{link}</p>
+        <p>
+          <Link to={url ?? useBaseUrl("/docs")}>{text}</Link>
+        </p>
       </div>
     </div>
   );
@@ -49,6 +57,7 @@ function Feature({ imageUrl, title, description, link }) {
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
+  const docLink = useBaseUrl("docs/");
   return (
     <Layout
       title={siteConfig.title}
@@ -66,7 +75,7 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/")}
+              to={docLink}
             >
               Get Started
             </Link>
